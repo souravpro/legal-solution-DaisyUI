@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution with DaisyUI | Practice Work</title>
+    <meta name="description" content="A simple tea house website designed using Tailwind CSS for practice.">
+    <meta name="keywords" content="Tea House, Tailwind CSS, Practice Project, Responsive Design">
+    <meta name="author" content="Sourik Sarker Arjo">
+    <!-- google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/ddf6670382.js" crossorigin="anonymous"></script>
+    <!-- tailwind and DaisyUi cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'legal-font': 'rgba(182, 140, 90, 1)',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- custom css file  -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "EB Garamond", serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="lg:container mx-auto">
+        <!-- navbar -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Cases</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-xl"><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <details>
+                                <summary>Services</summary>
+                                <ul class="p-2">
+                                    <li><a>Service 1</a></li>
+                                    <li><a>Service 2</a></li>
+                                    <li><a>Service 3</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Cases</summary>
+                                <ul class="p-2">
+                                    <li><a>Case 1</a></li>
+                                    <li><a>Case 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul class="p-2">
+                                    <li><a>Blog One</a></li>
+                                    <li><a>Blog Two</a></li>
+                                    <li><a>Blog Three</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Contact Us</summary>
+                                <ul class="p-2">
+                                    <li><a>Contact Form</a></li>
+                                    <li><a>Location</a></li>
+                                    <li><a>Support</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-legal-font text-white">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+
+    </main>
+
+    <!-- footer Section -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
